@@ -62,7 +62,7 @@ function App() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-2">
               <Building2 className="h-6 w-6 text-blue-600" />
-              <span className="text-xl font-bold text-gray-800">TechVision Solutions</span>
+              <span className="text-xl font-bold text-gray-800">PR Prabandhak</span>
             </div>
             <div className="hidden md:flex items-center gap-6">
               <button 
@@ -89,12 +89,6 @@ function App() {
               >
                 Mission
               </button>
-              <button 
-                onClick={scrollToForm}
-                className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
-              >
-                Register
-              </button>
             </div>
           </div>
         </div>
@@ -103,7 +97,7 @@ function App() {
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white pt-32 pb-20">
         <div className="container mx-auto px-4">
-          <h1 className="text-5xl font-bold mb-4">TechVision Solutions</h1>
+          <h1 className="text-5xl font-bold mb-4">PR Prabandhak</h1>
           <p className="text-xl">Transforming ideas into digital reality</p>
         </div>
       </div>
@@ -117,9 +111,7 @@ function App() {
               About Us
             </h2>
             <p className="text-gray-600 mb-4">
-              TechVision Solutions is a pioneering technology company dedicated to creating innovative solutions
-              that empower businesses to thrive in the digital age. Founded in 2020, we've quickly grown to
-              become a trusted partner for organizations seeking digital transformation.
+            At PR Prabandhak, we craft data-driven social media strategies tailored to each client’s industry, audience, and goals. With deep market insights and a network of 1,000+ influencers, we deliver high-impact campaigns that maximize engagement and drive results.
             </p>
           </div>
           <div>
@@ -183,36 +175,30 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
             <div className="bg-gray-50 rounded-lg p-8 shadow-lg transform hover:-translate-y-1 transition-transform">
               <div className="aspect-w-1 aspect-h-1 mb-6">
-                <img
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80"
-                  alt="David Chen"
-                  className="rounded-lg object-cover w-full h-[300px]"
-                />
+              <img
+  src="/src/assets/Manish.jpg"
+  alt="Manish Jha"
+  className="rounded-lg object-contain w-full h-[300px]"
+/>
               </div>
-              <h3 className="text-2xl font-bold mb-2">David Chen</h3>
+              <h3 className="text-2xl font-bold mb-2">Manish Jha</h3>
               <p className="text-blue-600 font-semibold mb-4">CEO & Co-founder</p>
               <p className="text-gray-600">
-                With over 15 years of experience in digital marketing and technology,
-                David leads our vision to revolutionize the creator economy. His
-                expertise in building scalable platforms has been instrumental in
-                TechVision's rapid growth.
+              With a strong background in analytics and influencer marketing, Manish excels in driving engagement and fostering meaningful collaborations.
               </p>
             </div>
             <div className="bg-gray-50 rounded-lg p-8 shadow-lg transform hover:-translate-y-1 transition-transform">
               <div className="aspect-w-1 aspect-h-1 mb-6">
                 <img
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80"
-                  alt="Sarah Martinez"
-                  className="rounded-lg object-cover w-full h-[300px]"
+                  src="/src/assets/Sudhir.jpg"
+                  alt="Sudhir Narwal"
+                  className="rounded-lg object-contain w-full h-[300px]"
                 />
               </div>
-              <h3 className="text-2xl font-bold mb-2">Sarah Martinez</h3>
+              <h3 className="text-2xl font-bold mb-2">Sudhir Narwal</h3>
               <p className="text-blue-600 font-semibold mb-4">CTO & Co-founder</p>
               <p className="text-gray-600">
-                Sarah brings her extensive background in AI and machine learning to
-                drive our technological innovation. Her work in developing smart
-                matching algorithms has revolutionized how brands connect with
-                influencers.
+              Sudhir brings a wealth of experience in digital marketing and creative strategies, ensuring every campaign delivers measurable results. 
               </p>
             </div>
           </div>
@@ -228,9 +214,7 @@ function App() {
           </h2>
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-xl text-gray-700 leading-relaxed mb-8">
-              To revolutionize the creator economy by building meaningful connections
-              between brands and influencers, fostering authentic partnerships that
-              drive mutual growth and success.
+            Our mission is to transform the creator economy by forging authentic, data-driven partnerships between brands and influencers. We aim to drive mutual growth, ensuring impactful collaborations that resonate with audiences and deliver lasting success.
             </p>
             <div className="grid md:grid-cols-3 gap-8 mt-12">
               <div className="bg-white p-6 rounded-lg shadow-md">
@@ -392,12 +376,13 @@ function App() {
       {/* Footer */}
       <footer className="bg-white text-gray-800 py-16 border-t">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16">
+
             {/* Company Info */}
             <div className="space-y-4">
               <div className="flex items-center gap-2">
                 <Building2 className="h-8 w-8 text-blue-600" />
-                <span className="text-xl font-bold">TechVision Solutions</span>
+                <span className="text-xl font-bold">PR Prabandhak</span>
               </div>
               <p className="text-gray-600">
                 Connecting top brands with passionate socially-engaged audiences through our network of influencers.
@@ -414,66 +399,6 @@ function App() {
                 </a>
               </div>
             </div>
-
-            {/* Services */}
-            <div>
-              <h3 className="text-xl font-bold mb-6">Services</h3>
-              <ul className="space-y-4">
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
-                    Instagram Influencer Marketing
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
-                    YouTube Influencer Marketing
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
-                    Regional Influencer Marketing
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
-                    Celebrity Marketing
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
-                    Brand Placement
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            {/* Quick Links */}
-            <div>
-              <h3 className="text-xl font-bold mb-6">Links</h3>
-              <ul className="space-y-4">
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
-                    Blog
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
-                    FAQs
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
-                    Careers
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
-                    Contact Us
-                  </a>
-                </li>
-              </ul>
-            </div>
-
             {/* Contact Info */}
             <div>
               <h3 className="text-xl font-bold mb-6">Contact Us</h3>
@@ -505,7 +430,7 @@ function App() {
         <div className="border-t mt-16">
           <div className="container mx-auto px-4 py-6">
             <p className="text-center text-gray-600">
-              &copy; 2024 TechVision Solutions. All rights reserved.
+              &copy; 2024 PR Prabandhak. All rights reserved.
             </p>
           </div>
         </div>
