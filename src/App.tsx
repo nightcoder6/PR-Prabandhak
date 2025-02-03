@@ -66,25 +66,49 @@ function App() {
             </div>
             <div className="hidden md:flex items-center gap-6">
               <button 
-                onClick={() => scrollToSection('about')}
+               onClick={() => {
+                const section = document.getElementById('about');
+                window.scrollTo({
+                  top: section.offsetTop - 60, 
+                  behavior: 'smooth',
+                });
+              }}
                 className="text-gray-600 hover:text-blue-600 transition-colors"
               >
                 About
               </button>
               <button 
-                onClick={() => scrollToSection('path')}
+                onClick={() => {
+                  const section = document.getElementById('path');
+                  window.scrollTo({
+                    top: section.offsetTop - 60, 
+                    behavior: 'smooth',
+                  });
+                }}
                 className="text-gray-600 hover:text-blue-600 transition-colors"
               >
                 Choose Path
               </button>
               <button 
-                onClick={() => scrollToSection('founders')}
+                onClick={() => {
+                  const section = document.getElementById('founders');
+                  window.scrollTo({
+                    top: section.offsetTop - 60, 
+                    behavior: 'smooth',
+                  });
+                }}
                 className="text-gray-600 hover:text-blue-600 transition-colors"
               >
                 Founders
               </button>
               <button 
-                onClick={() => scrollToSection('mission')}
+                onClick={() => {
+                  const section = document.getElementById('mission');
+                  window.scrollTo({
+                    top: section.offsetTop - 60, 
+                    behavior: 'smooth',
+                  });
+                }}
                 className="text-gray-600 hover:text-blue-600 transition-colors"
               >
                 Mission
@@ -406,7 +430,7 @@ function App() {
                 <li className="flex items-center gap-2">
                   <MapPin className="h-5 w-5 text-blue-600 flex-shrink-0" />
                   <span className="text-gray-600">
-                    A-31, LGF, Shivalik, Malviya Nagar, New Delhi - 110017
+                    Bangalore
                   </span>
                 </li>
                 <li>
@@ -418,7 +442,7 @@ function App() {
                 <li>
                   <a href="tel:+919669489477" className="flex items-center gap-2 text-gray-600 hover:text-blue-600 transition-colors">
                     <Phone className="h-5 w-5 text-blue-600 flex-shrink-0" />
-                    +91-9669489477
+                    +91-8100225654
                   </a>
                 </li>
               </ul>
